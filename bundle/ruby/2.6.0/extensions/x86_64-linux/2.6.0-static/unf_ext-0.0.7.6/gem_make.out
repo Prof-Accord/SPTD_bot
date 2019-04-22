@@ -1,0 +1,23 @@
+current directory: /mnt/c/develop/discord_bot/bundle/ruby/2.6.0/gems/unf_ext-0.0.7.6/ext/unf_ext
+/home/prof-accord/.rbenv/versions/2.6.3/bin/ruby -I /home/prof-accord/.rbenv/versions/2.6.3/lib/ruby/2.6.0 -r ./siteconf20190421-622-11g193k.rb extconf.rb
+checking for -lstdc++... yes
+creating Makefile
+
+current directory: /mnt/c/develop/discord_bot/bundle/ruby/2.6.0/gems/unf_ext-0.0.7.6/ext/unf_ext
+make "DESTDIR=" clean
+
+current directory: /mnt/c/develop/discord_bot/bundle/ruby/2.6.0/gems/unf_ext-0.0.7.6/ext/unf_ext
+make "DESTDIR="
+compiling unf.cc
+cc1plus: warning: command line option ‘-Wdeclaration-after-statement’ is valid for C/ObjC but not for C++
+cc1plus: warning: command line option ‘-Wimplicit-function-declaration’ is valid for C/ObjC but not for C++
+cc1plus: warning: command line option ‘-Wimplicit-int’ is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option ‘-Wno-self-assign’
+cc1plus: warning: unrecognized command line option ‘-Wno-parentheses-equality’
+cc1plus: warning: unrecognized command line option ‘-Wno-constant-logical-operand’
+cc1plus: warning: unrecognized command line option ‘-Wno-cast-function-type’
+linking shared-object unf_ext.so
+
+current directory: /mnt/c/develop/discord_bot/bundle/ruby/2.6.0/gems/unf_ext-0.0.7.6/ext/unf_ext
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 unf_ext.so ./.gem.20190421-622-1sk6ca5
